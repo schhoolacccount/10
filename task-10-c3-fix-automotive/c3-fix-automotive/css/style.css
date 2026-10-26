@@ -1,0 +1,144 @@
+/* C3 Fix Automotive - Stylesheet */
+/* Every page uses this one file. */
+
+
+/* ----- Whole page ----- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+
+/* ----- Header ----- */
+header {
+    background-color: #222222;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* ----- Menu ----- */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #d62828;
+}
+
+
+/* ----- Main content ----- */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #d62828;
+    font-size: 40px;
+}
+
+h2 {
+    color: #d62828;
+    margin-top: 40px;
+}
+
+
+/* ----- Pictures ----- */
+img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* ----- Boxes ----- */
+.box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #d62828;
+}
+
+
+/* ----- Buttons ----- */
+.button {
+    display: inline-block;
+    background-color: #d62828;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #a81e1e;
+}
+
+
+/* ----- Table ----- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+/* ----- Form ----- */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/* ----- Footer ----- */
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
